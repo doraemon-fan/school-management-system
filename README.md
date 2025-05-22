@@ -40,7 +40,7 @@ A Node.js + Express + MySQL backend application to manage schools and retrieve a
 
 ### ➕ Add School
 
-**Endpoint**: `POST /addSchool`
+**Endpoint**: `POST /api/addSchool`
 
 **Request Body:**
 
@@ -65,7 +65,7 @@ A Node.js + Express + MySQL backend application to manage schools and retrieve a
 
 ### 📍 List Schools by Proximity
 
-**Endpoint**: `GET /listSchools`
+**Endpoint**: `GET /api/listSchools`
 
 **Query Parameters:**
 
@@ -103,6 +103,7 @@ DB_USER=your_user
 DB_PASS=your_password
 DB_NAME=your_database
 DB_PORT=3306
+DB_TABLE=your_table
 PORT=3000
 ```
 
@@ -123,11 +124,11 @@ A Postman Collection is created to help test the API.
 
 ### Includes:
 
-* Example request for `POST /addSchool`
-* Example request for `GET /listSchools`
+* Example request for `POST /api/addSchool`
+* Example request for `GET /api/listSchools`
 * Expected request/response formats
 
-> Collection will be shared after deployment.
+> Collection: [Postman Collection](https://www.postman.com/ayushmanparida/school-management-system/request/37eqyo2/list-schools)
 
 ---
 
@@ -156,6 +157,7 @@ DB_USER=root
 DB_PASS=yourpassword
 DB_NAME=school_db
 DB_PORT=3306
+DB_TABLE=your_table
 PORT=3000
 ```
 
